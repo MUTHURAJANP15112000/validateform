@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<!-- CSS only -->
+
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    </style>
+</head>
+<body>
+     <div class="container">
+        <header>ADMISSION FORM</header>
+        <div class="progress-bar">
+         <div class="step">
+            <p>    Personal &nbsp;details</p>
+            <div class="bullet">
+            <span>1</span>
+         </div>
+            <div class=" check fa-solid fa-check"></div>
+
+         </div>
+         <div class="step">
+            <p>Community details</p>
+            <div class="bullet">
+
+            <span>2</span>
+         </div>
+            <div class="check fa-solid fa-check"></div>
+         </div>
+         <div class="step">
+
+            <p>Programme details</p>
+            <div class="bullet">
+
+            <span>3</span>
+         </div>
+            <div class="check fa-solid fa-check"></div>
+
+
+         </div>
+         <div class="step">
+
+            <p>12th details</p>
+            <div class="bullet">
+
+            <span>4</span>
+         </div>
+            <div class="check fa-solid fa-check"></div>
+
+
+         </div>
+         <div class="step">
+            <p>Graduation Details</p>
+            <div class="bullet">
+            <span>5</span>
+         </div>
+            <div class="check fa-solid fa-check"></div>
+         </div>
+        </div>
+
+        
+
+
+        
+        <div class="form-outer">
+            <form action="#">
+                <div class="page slidepage" id="page-width" id="page1">
+                   <div class="title">Personal Details: </div>
+                   <div class="flex">
+                     <div class="field">
+                      <div class="label">Register No <span class="required f1"></span></div>
+                      <input type="text" name="reg">
+                   </div>
+                   <div class="field ml">
+                     <div class="label">Gender <span class="required f2"></span></div>
+                     <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                     </select>
+                     
+                  </div>
+                </div>
+                       <div class="flex">
+                       <div class="field">
+                        <div class="label">Name of the Applicant <span class="required f3"></span></div>
+                        <input type="text" name="name">
+                     </div>
+                       <div class="field ml">
+                        <div class="label">Religion<span class="required f4"></span></div>
+                        <input type="text" name="religion">
+                        </div>
+                  </div>
+                  <div class="flex">
+                     <div class="field">
+                      <div class="label">Date of Birth<span class="required f5"></span></div>
+                      <input type="date" name="dob">
+                   </div>
+                     <div class="field ml">
+                      <div class="label">Nationality<span class="required f6"></span></div>
+                      <input type="text" name="nation">
+                   </div>
+                </div>
+                <div class="flex">
+                  <div class="field">
+                     <div class="label">Father's/Mother's/ Guardian Name<span class="required f7"></span></div>
+                     <input type="text" name="parent" class="parent">
+                     
+                  </div>
+                  <div class="field ml">
+                   <div class="label">Email Id<span class="required f8"></span></div>
+                   <input type="text" name="email">
+                </div>
+                
+             </div>
+             <div class="flex">
+               <div class="field">
+                <div class="label">Mobile number<span class="required f9"></span></div>
+                <input type="text" name="phno">
+             </div>
+              
+          </div>
+             
+   
+                      <div class="field" id="nextbtn">
+                        <button type="button" class="nextBtn">Next</button>
+                      </div>
+
+                </div>
+                <div class="page" id="page-width">
+                    <div class="title">Community/Category Details</div>
+                    <div class="flex">
+                     <div class="field">
+                      <div class="label">Category<span class="required f10"></span></div>
+                      <input type="text" name="category">
+                   </div>
+                     <div class="field ml">
+                      <div class="label">Caste<span class="required f11"></span></div>
+                      <input type="text" name="caste" >
+                   </div>
+                </div>
+                <div class="flex rad">
+                   <div class="field">
+                    <div class="label">Are you PWD(Persons with Disability)</div>
+                    <label for="radio11">Yes 
+                    <input type="radio" id="radio11" name="radio1" value="Yes"></label>
+                    <label for="radio12">No
+                    <input type="radio" id="radio12" name="radio1" value="No"></label>
+                 </div>
+                   <div class="field ml">
+                    <div class="label">Represented the University in Games</div>
+                    <label for="radio21">Yes 
+                     <input type="radio" id="radio21" name="radio2" value="Yes"></label>
+                     <label for="radio22">No
+                     <input type="radio" id="radio22" name="radio2" value="No"></label>
+
+                 </div>
+              </div>
+              <div class="flex">
+                <div class="field">
+                   <div class="label">Are You a ward of Service/Ex-Serviceman?</div>
+                   <label for="radio31">Yes 
+                     <input type="radio" id="radio31" name="radio3" value="Yes"></label>
+                     <label for="radio32">No
+                     <input type="radio" id="radio32" name="radio3" value="No"></label>
+                   
+                </div>
+                <div class="field ml">
+                 <div class="label">NRI/Industrial Sponsored</div>
+                 <label for="radio41">Yes 
+                  <input type="radio" id="radio41" name="radio4" value="Yes"></label>
+                  <label for="radio42">No
+                  <input type="radio" id="radio42" name="radio4" value="No"></label>
+              </div>
+              
+           </div>
+           <div class="flex">
+             <div class="field">
+              <div class="label">Are you Tamil Origin from Andaman and Nicobar Islands?</div>
+              <div class="spacetop">
+              <label for="radio51">Yes 
+               <input type="radio" id="radio51" name="radio4" value="Yes"></label>
+               <label for="radio52">No
+               <input type="radio" id="radio52" name="radio4" value="No"></label>
+            </div>
+           </div>
+           <div class="field ml">
+            <div class="label">Are you NCC Certificate Holder</div>
+            <label for="radio61">Yes 
+               <input type="radio" id="radio61" name="radio5" value="Yes"></label>
+               <label for="radio62">No
+               <input type="radio" id="radio62" name="radio5" value="No"></label>
+         </div>
+            
+        </div>
+        <div class="flex">
+         <div class="field">
+            <div class="label">Are you from a Sri Lankan Tamil Refugee Camp?</div>
+            <label for="radio71">Yes 
+               <input type="radio" id="radio71" name="radio6" value="Yes"></label>
+               <label for="radio72">No
+               <input type="radio" id="radio72" name="radio6" value="No"></label>
+         </div>
+        
+    </div>
+                       <div class="field btns" id="pnb1">
+                        <button  type="button" class="prev-1 prev">Previous</button>
+                         <button  type="button" class="next-1 next">Next</button>
+                       </div>
+ 
+                 </div>
+
+                 <div class="page" id="page-width2">
+                    <div class="title">Programme Details</div>
+                    <div class="flex">
+                     <div class="field">
+                      <div class="label">Preferred Degree Programme</div>
+                      <input type="text">
+                   </div>
+                     <div class="field ml">
+                      <div class="label">Nativity</div>
+                      <input type="text">
+                      </div>
+                  </div>
+                  <div class="field">
+                     <div class="label">Programme Name</div>
+                     <input type="text">
+                  </div>
+                <div class="">SSLC(10th details)</div>
+                   <div class="field">
+                  <div class="label">Status</div>
+               
+                   <select name="status" >
+                     <option value="Ongoing">Ongoing</option>
+                     <option value="Completed">Completed</option>
+                  </select>
+
+                 </div>
+                   
+              
+              <div class="flex">
+                <div class="field">
+                   <div class="label">School</div>
+                   <input type="text">
+                   
+                </div>
+                <div class="field ml">
+                 <div class="label">Board(State/CBSE/ICSC/etc)</div>
+                 <select name="status" >
+                  <option value="State Board">STATE BOARD</option>
+                  <option value="CBSC">CBSC</option>
+                  <option value="ICSC">ICSC</option>
+               </select>
+              </div>
+              
+           </div>
+           <div class="flex">
+             <div class="field">
+              <div class="label">% of Marks/CGPA</div>
+              <input type="text">
+           </div>
+           <div class="field ml">
+            <div class="label">Month and Year of Passing</div>
+            <input type="text">
+            </div>
+        </div>
+                  
+                       <div class="field btns" id="pnb1">
+                        <button  type="button" class="prev-2 prev">Previous</button>
+                         <button  type="button" class="next-2 next">Next</button>
+                       </div>
+               </div>
+
+                       
+                 <div class="page" id="page-width">
+                  <div class="title">HSC(12th) Details</div>
+                 
+                  <div class="flex">
+                     <div class="field">
+                        <div class="label">Status</div>
+                     
+                         <select name="status" >
+                           <option value="Ongoing">Ongoing</option>
+                           <option value="Completed">Completed</option>
+                        </select>
+       
+                       </div>
+                      
+                     <div class="field ml">
+                      <div class="label">Subject/Group studied</div>
+                      <input type="text">
+                   </div>
+                 
+                  </div>
+                 
+                 
+                
+                  
+             
+             <div class="flex">
+               <div class="field">
+                  <div class="label">School</div>
+                  <input type="text">
+                  
+               </div>
+               <div class="field ml">
+                <div class="label">Board(State/CBSE/ICSC/etc)</div>
+                <select name="status" >
+                 <option value="State Board">STATE BOARD</option>
+                 <option value="CBSC">CBSC</option>
+                 <option value="ICSC">ICSC</option>
+              </select>
+             </div>
+             
+          </div>
+          <div class="flex">
+            <div class="field">
+             <div class="label">% of Marks/CGPA</div>
+             <input type="text">
+          </div>
+          <div class="field ml">
+           <div class="label">Month and Year of Passing</div>
+           <input type="text">
+          </div>
+
+
+       </div>
+                       
+      
+                       <div class="field btns" id="pnb1">
+                        <button  type="button" class="prev-3 prev">Previous</button>
+                         <button  type="button" class="next-3 next">Next</button>
+                       </div>
+
+                     </div>
+                       <div class="page" id="page-width">
+                        <div class="title">Graduation Details</div>
+                       
+                        <div class="flex">
+                           <div class="field">
+                              <div class="label">Status</div>
+                           
+                               <select name="status" >
+                                 <option value="Ongoing">Ongoing</option>
+                                 <option value="Completed">Completed</option>
+                              </select>
+             
+                             </div>
+                            
+                           <div class="field ml">
+                            <div class="label">Examination Pattern</div>
+                            <input type="text">
+                         </div>
+                       
+                        </div>
+                       
+                       
+                      
+                        
+                   
+                   <div class="flex">
+                     <div class="field">
+                        <div class="label">College / School Education Board</div>
+                        <input type="text">
+                        
+                     </div>
+                     <div class="field ml">
+                      <div class="label">University / Institution</div>
+                     <input type="text">
+                   </div>
+                   
+                </div>
+                <div class="flex">
+                  <div class="field">
+                   <div class="label">Branch / Subject</div>
+                   <input type="text">
+                </div>
+                <div class="field ml">
+                 <div class="label">Month and Year of Passing</div>
+                 <input type="text">
+                 </div>
+    
+
+                 </div>
+                 <div class="flex">
+                  <div class="field">
+                   <div class="label">% of Marks (Part 1)</div>
+                   <input type="text">
+                </div>
+                <div class="field ml">
+                 <div class="label">% of Marks (Part 2)</div>
+                 <input type="text">
+                 </div>
+                 </div>
+                 <div class="field">
+                  <div class="label">% of Marks (Part 3)</div>
+                  <input type="text">
+               </div>
+               <div class="field btns" id="pnb1">
+                  <button  type="button" class="prev-4 prev">Previous</button>
+                   <button  type="button" class="submit" id="submit">Submit</button>
+                 </div>
+           </div>
+         </div>
+            </form>
+         </div>
+
+
+     </div>
+<script src="script.js"></script>
+
+</body>
+</html>
